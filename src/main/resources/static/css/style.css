@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000;
+}
+
+.logo {
+    color: #666;
+    font-size: 2em;
+}
+
+#logo {
+    color: #FF8F00;
+    font-size: 2em;
+}
+
+.main-section {
+    /* background-image: url("/images/back1.jpg"); */
+    background-color: #E1F5FE;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 610px;
+}
+
+.section-label {
+    width: 50%;
+    padding: 30px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #7C4DFF;
+    margin: 0 auto;
+}
+
+.section-menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-btn {
+    width: 50%;
+    text-align: center;
+}
+
+.boton {
+    font-size: 20px;
+    color: #FAFAFA;
+    font-weight: bold;
+    background-color: #82b1FF;
+    border: solid 3px #8C9EFF;
+    width: 50%;
+    text-decoration: none;
+}
+
+.navegation {
+    color: #FF6D00;
+}
+
+#ico {
+    color: #BF360C;
+    font-size: 1.5em;
+}
+
+header nav {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #82B1FF;
+}
+
+footer {
+    background-color: #82B1FF;
+    padding: 10px;
+    color: #424242;
+    width: 100%;
+}

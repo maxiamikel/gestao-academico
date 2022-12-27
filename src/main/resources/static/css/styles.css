@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: montserrat;
+}
+
+nav {
+    background: #5434af;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+label.logo {
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    padding: 0 40px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 15px;
+    color: #ffffff;
+}
+
+nav ul li:hover {
+    color: #7C4DFF;
+}
+
+nav ul li a {
+    color: #FFFFFF;
+    font-size: 17px;
+    padding: 12px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+
+.container {
+    min-height: 70vh;
+    padding: 30px;
+}
+
+.main-section {
+    /*background-image: url("/images/back1.jpg");*/
+    background-color: #F2FDEA;
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 610px;
+}
+
+.section-label {
+    padding-top: 200px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: #7C4DFF;
+    min-height: 300px;
+}
+
+.section-menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.section-btn {
+    width: 50%;
+    text-align: center;
+    padding-top: 10px;
+    height: 50px;
+    border: solid 1px #7C4DFF;
+    margin-left: 10px;
+    color: #7C4DFF;
+}
+
+.section-btn .boton {
+    font-size: 15px;
+    color: #7C4DFF;
+}
+
+
+/*FORM ALUNO*/
+
+.agrupar {
+    display: flex;
+}
+
+.agrupar-text {
+    padding: 8px;
+    border: solid 1px #e1e1e1;
+    border-right: 0px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.form-content-div {
+    border: 0px;
+}
+
+footer {
+    background-color: #5434af;
+    padding: 40px;
+    color: #E1F5FE;
+    font-size: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
