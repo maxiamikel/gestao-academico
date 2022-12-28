@@ -5,6 +5,7 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -19,6 +20,7 @@ import com.maxi.app_colegio.services.DisciplinaService;
 
 @RestController
 @RequestMapping("api/disciplinas")
+@CrossOrigin(origins = "*")
 public class DisciplinaController {
 
     @Autowired
@@ -38,6 +40,14 @@ public class DisciplinaController {
     public List<Disciplina> findAllDisciplinasProfessor(@PathVariable Long id){
         return this.service.findDisciplinasProfessor(id);
     }
+
+/* 
+    @GetMapping("/pro/dis/{id}")
+    public List <Disciplina> listar(@PathVariable Long id){
+        return this.service.getDisciplinasPorProfessor(id);
+    }
+    */
+
 
     @PostMapping("/create")
     public ResponseEntity<?> create(@RequestBody Disciplina obj){

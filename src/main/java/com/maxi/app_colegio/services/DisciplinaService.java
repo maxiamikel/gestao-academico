@@ -43,6 +43,12 @@ public class DisciplinaService {
         return disciplinas;
     }
 
+   /*  public List<Disciplina> getDisciplinasPorProfessor(Long id){
+        Professor professor = this.professorService.findProfessorById(id);
+        List<Disciplina> disciplinas = this.repo.findByProfessor_I(professor.getId());
+        return disciplinas;
+    } */
+
     @Validated
     public ResponseEntity<?> createDisciplina(Disciplina obj){
         if(obj.getNome().length() <= 0){

@@ -18,7 +18,7 @@ public class Disciplina {
     @Column(nullable = false, name = "nome", unique = true)
     private String nome;
 
-    @Column(nullable = false, name = "carga_horario", unique = true)
+    @Column(nullable = false, name = "carga_horario")
     private Integer cargaHorario;
 
     @ManyToOne()
